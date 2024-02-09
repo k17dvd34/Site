@@ -7,14 +7,13 @@ body {
 } 
 
 .materia {
-    color:rgb(0, 0, 0);
-    text-decoration: rgb(148, 11, 11);
+    background-color:black ;
     padding: 10px; 
-    background-color: aliceblue;
-    padding: 30px;
-    margin-bottom: 30px;
-    width: 600px;
+    margin-bottom:30px ;
+    width: 320px;
     text-align: center;
+    margin-left: auto;
+    margin-right: auto;
 }
 .materia a:hover{
     color:rgb(22, 1, 24);
@@ -29,15 +28,16 @@ body {
 }
 
 .rodape {
-    background-color:rgb(0, 0, 0);
-    color:white;
-    padding: 70px;
+    background-color: aqua;
+    padding: 30px;
+    margin-bottom: 30px;
+    text-align: center;
 }
 .topo {
     background-color:rgb(255, 255, 255);
+    padding:20px;
     font-size: 20px;
-    margin-bottom: 10px;
-    padding:10px;
+    height: 70px;
 }
 .navegacao a{
     text-decoration: none;
@@ -51,6 +51,8 @@ body {
 
 .navegacao{
     display:flex;
+    align-items: center;
+    
 }
 li{
     margin-right: 20px;
@@ -60,46 +62,39 @@ li{
 }
 .titulo {
     text-align: center;
-    margin-bottom: 10px;
-    padding-left: 40px;
+    margin-bottom: 20px;
+    font-size: 20px;
     
 }
 
 .texto{
     text-align: center;
-    padding-left: 20px;
-    font-size: 30px;  
+    
+    font-size: 20px;  
     color:white; 
 }
 .grade {
     display: grid;
-    grid-template-columns: repeat(auto-fill,minmax(700px,1fr));
-    gap: 20px;
+    grid-template-columns: repeat(auto-fill,minmax(320px,1fr));
 
 }
 
 .menu li{
-    margin-left: 30px;
+    margin-left: 20px;
 }
 
 .botao{
     background-color: red;
     color:white;
-    text-decoration: rgb(146, 10, 10);
-    padding: 20px;
+    text-decoration:none;
+    padding: 10px;
     display: inline-block;
     border-radius: 20px;
-    font-size: 18px;
-    border: 0;
+    border: 20;
 }
 .botao:hover{
     background-color: wheat;
 }
-
-.navegacao{
-    display: flex;
-}
-
 
 main{
     padding: 10px;
